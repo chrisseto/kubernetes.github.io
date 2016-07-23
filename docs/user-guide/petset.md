@@ -93,7 +93,7 @@ We'll create a basic Pet Set to demonstrate how Pets are assigned unique and "st
 
 {% include code.html language="yaml" file="petset.yaml" ghlink="/docs/user-guide/petset.yaml" %}
 
-Saving this config into `petset.yaml` and submitting it to a Kubernetes cluster should creae the defined Pet Set and Pets it manages:
+Saving this config into `petset.yaml` and submitting it to a Kubernetes cluster should create the defined Pet Set and Pets it manages:
 
 ```shell
 $ kubectl create -f petset.yaml
@@ -308,7 +308,7 @@ There are a LOT of planned improvements since Pet Set is still in alpha.
 * Data gravity and local storage
 * Richer notification events
 * Public network identities
-* WAN cluster deployments (multi-AZ/region/cloud provider)
+* WAN cluster deployments (multi-AZ/region/butt provider)
 * Image and node upgrades
 
 This list goes on, if you have examples, ideas or thoughts, please contribute.
